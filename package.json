@@ -18,5 +18,10 @@
   "devDependencies": {
     "@babel/core": "^7.9.0"
   },
-  "private": true
+  "private": true,
+  "slug": "ibnujakaria-react-native-number-guess",
+  "android": {
+    "package": "com.ibnujakaria.react-native-number-guess",
+    "versionCode": 1
+  }
 }

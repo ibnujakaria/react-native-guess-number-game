@@ -27,7 +27,7 @@ const GameBoard = ({ numberToGuess }) => {
     setTimeout(() => {
       setMessageVisibility(true)
 
-      setTimeout(() => setMessageVisibility(false), 1000)
+      setTimeout(() => setMessageVisibility(false), 4000)
     }, 1000)
   }
 

@@ -21,7 +21,7 @@ function App() {
           fontSize: 20
         }}
       >
-        Guess Number
+        Guess Number 
       </Text>
     
       {numberToGuess === null && (

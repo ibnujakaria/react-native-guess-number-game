@@ -4,36 +4,19 @@ This is a simple guess number game built with react-native. The game will provid
 
 ## How to Install
 
-This will install and run the project on Expo
+This will install and run the project on Your Device or Android Emulator
 
 - `cd react-native-guess-number-game`
 - `npm install`
-- `npm start`
+- `npx react-native run-android`
 
-The expo development server will start, and you can run the app via the Expo Go from playstore.
+## How to Build APK
 
-## How to Build .apk (locally)
+- You can read it [here](https://reactnative.dev/docs/signed-apk-android)
 
-You can build apk version using these steps:
+The unsigned apk file is located here:
 
-1. Make sure you installed Android Sdk stuffs
-2. Make sure you installed turtle-cli:
-
-   ```bash
-   npm install -g turtle-cli
-   ```
-
-4. Make sure everything is okay by running:
-
-    ```bash
-    turtle setup:android
-    ```
-
-5. Build the app by running:
-
-    ```bash
-    turtle build:android
-    ```
+- `./android\app\build\outputs\apk\debug\app-debug.apk`
 
 ## Screenshots
 

@@ -10,6 +10,31 @@ This will install and run the project on Expo
 - `npm install`
 - `npm start`
 
+The expo development server will start, and you can run the app via the Expo Go from playstore.
+
+## How to Build .apk (locally)
+
+You can build apk version using these steps:
+
+1. Make sure you installed Android Sdk stuffs
+2. Make sure you installed turtle-cli:
+
+   ```bash
+   npm install -g turtle-cli
+   ```
+
+4. Make sure everything is okay by running:
+
+    ```bash
+    turtle setup:android
+    ```
+
+5. Build the app by running:
+
+    ```bash
+    turtle build:android
+    ```
+
 ## Screenshots
 
 Some screenshots of the porject
